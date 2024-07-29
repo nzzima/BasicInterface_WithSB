@@ -20,12 +20,9 @@
                                 <rect key="frame" x="76" y="94" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Authorization" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BfH-gD-NYG">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Authorization" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BfH-gD-NYG">
                                 <rect key="frame" x="102" y="248" width="189" height="74"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="75" id="gyw-Yc-VfM"/>
-                                    <constraint firstAttribute="width" constant="250" id="p6L-Xb-3bW"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -55,6 +52,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="button" destination="skt-gT-sVG" id="OOx-PL-GjW"/>
+                        <outlet property="imageView" destination="y4R-mK-bDu" id="gum-58-xxG"/>
+                        <outlet property="labelAuth" destination="BfH-gD-NYG" id="AE6-vz-4uE"/>
+                        <outlet property="loginFilled" destination="1vO-Mu-q7I" id="Hmn-ob-SII"/>
+                        <outlet property="passwordField" destination="ZvO-vl-Ezu" id="Ysj-H4-mgs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

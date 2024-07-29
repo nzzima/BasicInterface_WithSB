@@ -18,9 +18,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
-        
+        button.addTarget(self, action: #selector(didTapEnterButton), for: .touchUpInside)
     }
 
+    @objc func didTapEnterButton() {
+        print("Enter provided!")
+    }
 
 }
 
