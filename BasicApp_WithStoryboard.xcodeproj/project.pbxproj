@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8E73D9612C57B35100A9C688 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ED489C52C578D0300227B18 /* LaunchScreen.storyboard */; };
+		8E73D9632C57B8DF00A9C688 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8E73D9622C57B8DF00A9C688 /* README.md */; };
 		8ED489BB2C578D0200227B18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED489BA2C578D0200227B18 /* AppDelegate.swift */; };
 		8ED489BD2C578D0200227B18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED489BC2C578D0200227B18 /* SceneDelegate.swift */; };
 		8ED489BF2C578D0200227B18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED489BE2C578D0200227B18 /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E73D9622C57B8DF00A9C688 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8ED489B72C578D0200227B18 /* BasicApp_WithStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicApp_WithStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ED489BA2C578D0200227B18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8ED489BC2C578D0200227B18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 		8ED489AE2C578D0200227B18 = {
 			isa = PBXGroup;
 			children = (
+				8E73D9622C57B8DF00A9C688 /* README.md */,
 				8ED489B92C578D0200227B18 /* BasicApp_WithStoryboard */,
 				8ED489D02C578D0300227B18 /* BasicApp_WithStoryboardTests */,
 				8ED489DA2C578D0300227B18 /* BasicApp_WithStoryboardUITests */,
@@ -234,6 +237,7 @@
 			files = (
 				8ED489C42C578D0300227B18 /* Assets.xcassets in Resources */,
 				8E73D9612C57B35100A9C688 /* LaunchScreen.storyboard in Resources */,
+				8E73D9632C57B8DF00A9C688 /* README.md in Resources */,
 				8ED489C72C578D0300227B18 /* Base in Resources */,
 				8ED489C22C578D0200227B18 /* Base in Resources */,
 			);
